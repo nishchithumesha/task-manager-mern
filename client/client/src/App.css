@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.auth-container,
+.dashboard-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-card,
+.dashboard-card {
+  background: white;
+  padding: 30px;
+  border-radius: 18px;
+  width: 90%;
+  max-width: 420px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-card {
+  max-width: 850px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #667eea;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 10px;
+  background: #667eea;
+  color: white;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button:hover {
+  background: #5a67d8;
+}
+
+.logout-btn {
+  background: #e53e3e;
+  float: right;
+}
+
+.delete-btn {
+  background: #e53e3e;
+}
+
+.toggle-btn {
+  background: #38a169;
+}
+
+.task-card {
+  background: #f7f7ff;
+  margin-top: 15px;
+  padding: 18px;
+  border-radius: 14px;
+  border-left: 6px solid #667eea;
+}
+
+.status {
+  font-weight: bold;
+}
+
+.completed {
+  color: green;
+}
+
+.pending {
+  color: orange;
+}
+
+.auth-link {
+  text-align: center;
+  margin-top: 15px;
+}
